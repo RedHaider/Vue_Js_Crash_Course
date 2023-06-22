@@ -1,8 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url("mainbg.jpg");
     background-color: #333;
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white; /* Set text color to white */
 }
 
 #app {
@@ -10,9 +15,9 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-image: url("2ndbg.jpg");
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 50px;
     margin-top: 50px;
 }
 

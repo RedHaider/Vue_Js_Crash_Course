@@ -9,6 +9,7 @@ const app = Vue.createApp({
             picture: "https://randomuser.me/api/portraits/men/10.jpg",
             age: "",
             dob:"",
+            cell:"",
             
         }
     },
@@ -26,6 +27,7 @@ const app = Vue.createApp({
         this.picture = results[0].picture.large
         this.age = results[0].dob.age
         this.dob = new Date(results[0].dob.date).toLocaleDateString('en-GB');
+        this.cell= results[0].cell
 
 
     },
