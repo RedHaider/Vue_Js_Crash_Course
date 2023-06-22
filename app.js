@@ -1,8 +1,12 @@
 const app = Vue.createApp({
-    template: '<h1>Hello {{firstName}}</h1>',
     data(){
         return{
-            firstName: "Jhon",
+            firstname: "Nurnabi",
+            lastname: "Haider",
+            email: "nurnabihaider13@gmail.com",
+            gender: "Male",
+            picture: "https://randomuser.me/api/portraits/men/10.jpg",
+            
         }
     },
 })
